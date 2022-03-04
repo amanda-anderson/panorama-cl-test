@@ -1,6 +1,6 @@
 import * as PANOLENS from "panolens";
 
-const panorama = new PANOLENS.ImagePanorama("/assets/pano2.jpeg");
+const panorama = new PANOLENS.ImagePanorama("https://raw.githubusercontent.com/amanda-anderson/panorama-cl-test/master/public/assets/pano2.jpeg");
 
 // Initial Infospot
 let infospot = new PANOLENS.Infospot( 400, PANOLENS.DataImage.Info, true );
